@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josanclick</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg position-absolute w-100 top-0 z-2 bg-dark bg-opacity-10 navbar-dark"
+    >
+      <div class="container-fluid px-5">
+        <a href="./index.html" class="navbar-brand">
+          <img src="./assets/logo.png.webp" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-label="navigation"
+          aria-expanded="false"
+          aria-controls="navbarNav"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolios">Prortfolios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="socila d-flex gap-4">
+            <a href="#"
+              ><i class="fa-brands text-white fs-4 fa-facebook"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands text-white fs-4 fa-instagram"></i
+            ></a>
+            <a href="#"><i class="fa-brands text-white fs-4 fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands text-white fs-4 fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="header position-relative">
+      <div
+        class="carousel slide carousel-fade"
+        id="slider"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            data-bs-target="#slider"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button data-bs-target="#slider" data-bs-slide-to="1"></button>
+          <button data-bs-target="#slider" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img
+              src="./assets/carousel-1.webp"
+              class="d-block w-100 h-100"
+              alt="carousel-1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Nature Beauty</p>
+              <h2 class="display-1">Miami Lake</h2>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="./assets/carousel-2.webp"
+              class="d-block w-100 h-100"
+              alt="carousel-1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Travel Shot</p>
+              <h2 class="display-1">Kayaking on Lakee</h2>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="./assets/carousel-3.webp"
+              class="d-block w-100 h-100"
+              alt="carousel-1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Action Shot</p>
+              <h2 class="display-1">Electricity</h2>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          data-bs-slide="prev"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-slide="next"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- about -->
+
+    <section class="about py-6" id="about">
+      <div class="container">
+        <div class="row d-flex justify-content-center gap-4">
+          <div class="col-md-3">
+            <h2 class="fs-2">I Click Moment, that you love</h2>
+            <p class="">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta.
+            </p>
+            <img
+              src="./assets/singneture.png.webp"
+              width="100"
+              class="signiture"
+              alt="signiture"
+            />
+          </div>
+          <div class="col-md-4">
+            <img src="./assets/about-me.webp" alt="me" class="img-fluid" />
+          </div>
+          <div class="col-md-3">
+            <h3 class="display-1">08</h3>
+            <p>Years of Experience</p>
+            <p class="lead">
+              "A gray cat slinks past a wooden house. There’s has something a
+              little intimidating attempting to describe.
+            </p>
+            <a href="#portfolios" class="btn btn-primary rounded-0 text-white"
+              >My Work</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+
+    <section class="gallery bg-secondary py-6" id="portfolios">
+      <div class="container">
+        <div class="row overflow-hidden">
+          <div
+            class="col-md-4 p-0 d-flex aling-item-center justify-content-center position-relative grid-item"
+          >
+            <img src="./assets/gallery1.jpg.webp" alt="" class="img-fluid" />
+            <div class="overlay">
+              <div class="text">
+                <p>Nature Beauty</p>
+                <h3>Street Shot</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 p-0 d-flex aling-item-center justify-content-center position-relative grid-item"
+          >
+            <img src="./assets/gallery2.jpg.webp" alt="" class="img-fluid" />
+            <div class="overlay">
+              <div class="text">
+                <p>Nature Beauty</p>
+                <h3>Street Shot</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 p-0 d-flex aling-item-center justify-content-center position-relative grid-item"
+          >
+            <img src="./assets/gallery3.jpg.webp" alt="" class="img-fluid" />
+            <div class="overlay">
+              <div class="text">
+                <p>Nature Beauty</p>
+                <h3>Street Shot</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 p-0 d-flex aling-item-center justify-content-center position-relative grid-item"
+          >
+            <img src="./assets/gallery4.jpg.webp" alt="" class="img-fluid" />
+            <div class="overlay">
+              <div class="text">
+                <p>Nature Beauty</p>
+                <h3>Street Shot</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 p-0 d-flex aling-item-center justify-content-center position-relative grid-item"
+          >
+            <img src="./assets/gallery5.jpg.webp" alt="" class="img-fluid" />
+            <div class="overlay">
+              <div class="text">
+                <p>Nature Beauty</p>
+                <h3>Street Shot</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 p-0 d-flex aling-item-center justify-content-center position-relative grid-item"
+          >
+            <img src="./assets/gallery6.jpg.webp" alt="" class="img-fluid" />
+            <div class="overlay">
+              <div class="text">
+                <p>Nature Beauty</p>
+                <h3>Street Shot</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs -->
+
+    <section class="blogs py-6" id="blogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-2">
+            <h2>Read my last blogs</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <a href="./blog.html" class="card border-0 text-decoration-none">
+              <img
+                src="./assets/blog01.jpg.webp"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Event Photography</h5>
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="./blog.html" class="card border-0 text-decoration-none">
+              <img
+                src="./assets/blog02.jpg.webp"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Wedding Photography</h5>
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="./blog.html" class="card border-0 text-decoration-none">
+              <img
+                src="./assets/blog03.jpg.webp"
+                class="card-img-top"
+                alt="img"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Family Photography</h5>
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials -->
+    <section class="testimonials bg-secondary py-6 px-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+            <img
+              src="./assets/testimonial-2.jpg"
+              alt="person"
+              class="rounded-circle w-25 mb-3"
+            />
+            <p class="fst-italic mb-3">
+              " I couldn't be happier with the photography services. I highly
+              recommend Jsoan to anyone looking for exceptional photography. "
+            </p>
+            <p class="fw-bold text-end">-John Smith</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <img
+              src="./assets/testimonial-3.jpg"
+              alt="person"
+              class="rounded-circle w-25 mb-3"
+            />
+            <p class="fst-italic mb-3">
+              " I had the pleasure of working with Jsoan for my professional
+              headshots, and the results exceeded my expectations. "
+            </p>
+            <p class="fw-bold text-end">-Jane Doe</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <img
+              src="./assets/testimonial-5.jpg"
+              alt="person"
+              class="rounded-circle w-25 mb-3"
+            />
+            <p class="fst-italic mb-3">
+              " Choosing Josanclick for my wedding photography was the best
+              decision I made. Jsoan captured every magical moment beautifully "
+            </p>
+            <p class="fw-bold text-end">-Sarah Williams</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing -->
+
+    <section class="pricing py-6" id="pricing">
+      <div class="container">
+        <div class="row offset-md-3">
+          <div class="col-md-8 text-center mb-5">
+            <h2>Choose a plan that suit you</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 my-4">
+            <div class="card bg-secondary rounded-0">
+              <div class="card-header bg-primary text-center">
+                <span class="badge p-3 bg-secondary mb-4">Photography</span>
+                <h3 class="fs-2">$ 400 USD</h3>
+              </div>
+              <div class="card-body text-center p-3">
+                <ul class="list-group vstack gap-2 list-group-flush mb-5">
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Up to 6 hours of coverage
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> 300 high-resolution photos
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Online gallery for easy
+                    sharing
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary text-white"
+                  >Choose this plan</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-secondary rounded-0">
+              <div class="card-header bg-primary text-center">
+                <span class="badge p-3 bg-secondary mb-4">Photography</span>
+                <h3 class="fs-2">$ 1000 USD</h3>
+              </div>
+              <div class="card-body text-center p-3">
+                <ul class="list-group vstack gap-2 list-group-flush mb-5">
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Full-day coverage (up to
+                    12 hours)
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> 800 high-resolution photos
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Engagement photoshoot
+                    sharing
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Photo album
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Online gallery & USB drive
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary text-white"
+                  >Choose this plan</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-4">
+            <div class="card bg-secondary rounded-0">
+              <div class="card-header bg-primary text-center">
+                <span class="badge p-3 bg-secondary mb-4">Photography</span>
+                <h3 class="fs-2">$ 800 USD</h3>
+              </div>
+              <div class="card-body text-center p-3">
+                <ul class="list-group vstack gap-2 list-group-flush mb-5">
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Full-day coverage (up to
+                    10 hours)
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> 500 high-resolution photos
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Engagement photoshoot
+                    sharing
+                  </li>
+                  <li class="list-group-item border-0">
+                    <i class="fa-solid fa-check"></i> Online gallery & USB drive
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary text-white"
+                  >Choose this plan</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services py-6 bg-secondary" id="services">
+      <div class="container">
+        <div class="row offset-md-1">
+          <div class="col-md-5 mb-2">
+            <h2>I do for you</h2>
+          </div>
+        </div>
+        <div class="row gap-4 offset-md-1">
+          <div class="col-md-5 p-0 grid-item position-relative">
+            <img src="./assets/wedding.jpg" class="img-fluid" alt="img" />
+            <div class="overlay p-2">
+              <div class="text">
+                <h2 class="card-title">Wedding Photography</h2>
+                <p class="card-text">
+                  Our wedding photography service is designed to capture the
+                  magic of your special day. We offer customizable packages that
+                  can cover the entire event, from the pre-ceremony moments to
+                  the reception. Additionally, we provide engagement and
+                  pre-wedding photoshoots to capture your unique love story. Our
+                  team of photographers is dedicated to delivering beautifully
+                  edited high-resolution images that you will treasure forever.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 p-0 grid-item position-relative">
+            <img src="./assets/portait.jpg" class="img-fluid" alt="img" />
+            <div class="overlay bg-dark bg-opacity-50 p-2">
+              <div class="text">
+                <h2 class="card-title">Portrait Photography</h2>
+                <p class="card-text">
+                  Our portrait photography services cater to both individuals
+                  and families. Whether you prefer a studio setup or the beauty
+                  of an outdoor setting, we can accommodate your preferences. We
+                  specialize in headshots for professionals and models,
+                  delivering high-quality images with artistic editing that
+                  enhance your unique personality.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 p-0 grid-item position-relative">
+            <img src="./assets/event.jpg" class="img-fluid" alt="img" />
+            <div class="overlay bg-dark bg-opacity-50 p-2">
+              <div class="text">
+                <h2 class="card-title">Event Photography</h2>
+                <p class="card-text">
+                  From birthday parties to corporate gatherings, our event
+                  photography service is equipped to cover a wide range of
+                  occasions. We excel in capturing both candid and posed shots
+                  that showcase the essence of your event. We prioritize fast
+                  turnaround times for edited photos, and we provide online
+                  galleries for easy sharing with friends and family.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 p-0 grid-item position-relative">
+            <img src="./assets/product.jpg" class="img-fluid" alt="img" />
+            <div class="overlay bg-dark bg-opacity-50 p-2">
+              <div class="text">
+                <h2 class="card-title">Product Photography</h2>
+                <p class="card-text">
+                  Our product photography service is ideal for businesses
+                  looking to showcase their products in the best possible light.
+                  We specialize in delivering high-quality images suitable for
+                  e-commerce platforms and marketing materials. Our
+                  photographers have an eye for clean, crisp, and detailed
+                  product shots. We can also assist with styling and creative
+                  compositions to make your products stand out.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 p-0 grid-item position-relative">
+            <img src="./assets/travel.jpg" class="img-fluid" alt="img" />
+            <div class="overlay bg-dark bg-opacity-50 p-2">
+              <div class="text">
+                <h2 class="card-title">Landscape and Travel Photography</h2>
+                <p class="card-text">
+                  Our landscape and travel photography services showcase
+                  stunning visuals from around the world. Our portfolio includes
+                  captivating landscapes and travel photos that can be purchased
+                  as prints or digital downloads. We also offer customized photo
+                  tours and workshops for photography enthusiasts looking to
+                  improve their skills and capture breathtaking moments.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 p-0 grid-item position-relative">
+            <img src="./assets/commercial.jpg" class="img-fluid" alt="img" />
+            <div class="overlay bg-dark bg-opacity-50 p-2">
+              <div class="text">
+                <h2 class="card-title">Commercial Photography</h2>
+                <p class="card-text">
+                  Our commercial photography service is designed to elevate your
+                  advertising and marketing campaigns. We specialize in
+                  capturing high-quality images for a variety of purposes,
+                  including product, lifestyle, and fashion photography. We
+                  operate in a professional studio environment with
+                  top-of-the-line equipment. Our team can provide creative
+                  direction and collaborate with your brand to achieve your
+                  desired visual identity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+
+    <section class="py-6 contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-2">
+            <h2>Get in touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 mb-3">
+            <form>
+              <div class="mb-2 d-flex gap-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="mb-2">
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Enter your phone"
+                  required
+                />
+              </div>
+              <div class="mb-2">
+                <textarea
+                  class="form-control"
+                  placeholder="Enter your message"
+                  required
+                  rows="6"
+                ></textarea>
+              </div>
+              <div class="mb-2 d-grid">
+                <button
+                  class="btn rounded-0 text-white btn-outline-light"
+                  type=" submit"
+                >
+                  Send Messages
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 vstack gap-5 mb-3">
+            <div
+              class="d-flex align-items-center justify-content-md-end text-md-end gap-4"
+            >
+              <div>
+                <i class="fa-solid fs-2 fa-house"></i>
+              </div>
+              <div>
+                <p class="m-0">
+                  Buttonwood, California. <br />
+                  <span class="text-muted fw-bold">Rosemead, CA 91770</span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-md-end text-md-end gap-4"
+            >
+              <div>
+                <i class="fa-solid fs-2 fa-mobile"></i>
+              </div>
+              <div>
+                <p class="m-0">
+                  +1 253 565 2365 <br />
+                  <span class="text-muted fw-bold">Mon to Fri 9am to 6pm</span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-md-end text-md-end gap-4"
+            >
+              <div>
+                <i class="fa-solid fs-2 fa-envelope"></i>
+              </div>
+              <div>
+                <p class="m-0">
+                  support@example.com <br />
+                  <span class="text-muted fw-bold"
+                    >Send us your query anytime!</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-6 bg-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <img src="./assets/logo.png.webp" alt="logo" />
+            <p class="my-4">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.
+            </p>
+            <div class="socila d-flex gap-4">
+              <a href="#"
+                ><i class="fa-brands text-white fs-4 fa-facebook"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands text-white fs-4 fa-instagram"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands text-white fs-4 fa-twitter"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands text-white fs-4 fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h6>Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                Important: <a href="#">Terms & Conditions</a>,
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                Useful: <a href="#expertise">Expertise</a>,
+                <a href="#pricing">Pricing</a>,
+                <a href="#">Newsletter</a>
+              </li>
+              <li>
+                Menu: <a href="#top">Home</a>,
+                <a href="#portfolios">Portfolios</a>,
+                <a href="#blogs">Blogs</a>,
+                <a href="#services">Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5">
+            <p>
+              We would love to hear from you
+              <a href="mailto:contact@site.com"
+                ><strong>contact@site.com</strong></a
+              >
+            </p>
+            <div class="my-3 input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="d-flex">
+                <button class="btn btn-primary rounded-0 text-white">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 border-top border-light">
+          <div class="col-12 mt-5 text-center">
+            <p>
+              Copyright © <span id="date"></span> All rights reserved | This
+              template is made with <span class="text-danger">♥</span> by
+              <a href="https://necka96.com/"> Nemanja Djordjevic</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button class="to-top-btn bg-primary text-white" id="toTop">
+      <i class="fa-sharp fa-solid fs-2 fa-angle-up fa-beat-fade"></i>
+    </button>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
