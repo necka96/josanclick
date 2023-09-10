@@ -107,6 +107,7 @@ textarea {
 .show {
   opacity: 1;
 }
+
 @media (max-width: 767px) {
   #slider {
     height: 600px;
@@ -125,7 +126,7 @@ textarea {
       }
     }
   }
-  .about {
-    padding: 0.2rem !important;
+  .overlay {
+    display: none;
   }
 }
